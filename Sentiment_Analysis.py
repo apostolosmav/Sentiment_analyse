@@ -45,3 +45,4 @@ clf.fit(X_train, y_train)
 # Modellbewertung 
 score = clf.score(X_test, y_test)
 print(f"Genauigkeit: {score:.2f}")
+# Test GitHub
