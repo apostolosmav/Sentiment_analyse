@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.tree import DecisionTreeClassifier
 
 # CSV-Datei laden
-df = pd.read_csv("C:\\Users\\velpTEC edutainment\\Downloads\\sentiment_analysis.csv")
+df = pd.read_csv("sentiment_analysis.csv")
 
 #  Vokabular erstellen 
 def get_vokabular(df):
